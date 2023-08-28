@@ -9,7 +9,9 @@
 
 -
 
-key(ctrl-alt-f): tracking.control_toggle()
+key(ctrl-alt-f): 
+    user.mouse_reset(10,10)
+    tracking.control_toggle()
 key(ctrl-alt-g): tracking.control_gaze_toggle()
 key(ctrl-alt-c): tracking.calibrate()
 key(ctrl-alt-j): tracking.control_mouse_jump_toggle()
