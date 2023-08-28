@@ -6,7 +6,7 @@ mod = Module()
 @mod.action_class
 class MouseActions:
     def mouse_reset(dx: int, dy: int):
-        """Moves mouse for cursor visibility on windows profile login"""
+        """Moves mouse to make cursor visible on windows profile login"""
         win32api.mouse_event(
             win32con.MOUSEEVENTF_MOVE,
             int(dx),
