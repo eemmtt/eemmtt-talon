@@ -15,3 +15,7 @@ key(ctrl-alt-f):
 key(ctrl-alt-g): tracking.control_gaze_toggle()
 key(ctrl-alt-c): tracking.calibrate()
 key(ctrl-alt-j): tracking.control_mouse_jump_toggle()
+
+#experiment with home footpedal
+key(f24:down): user.mouse_hover("start")
+key(f24:up): user.mouse_hover("stop")

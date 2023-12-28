@@ -6,3 +6,4 @@ deck(pedal_middle:down): mouse_drag(1)
 deck(pedal_middle:up): mouse_release(1)
 deck(pedal_right:down): user.piemenu("open")
 deck(pedal_right:up): user.piemenu("close")
+
